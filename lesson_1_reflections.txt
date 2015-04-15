@@ -1,0 +1,13 @@
+Using diff to find bugs narrows the scope of the text which you have to search in, saving time.
+
+Having easy access to the entire history of a file could make you a more efficient programmer in the long term by giving you solid jumping-off points for  different branches of a project, or, along the same lines, resetting your project to an earlier stage where you liked it better.  You could try moving forward in different directions simultaneously.
+
+The pros of manually choosing when to create a commit are tied into the fact that you can use the flexibility of your own judgment, to decide when it makes the most sense to commit.  The con is that you may forget to commit frequently enough, or may find it inconvenient to do so.
+
+Git allows you to save multiple files in one commit so that related components of a project keep their references to each other up to date.  Maybe the reason Google Docs doesn't allow the same feature is that Google isn't trying to provide a repository for complex projects, but rather a vault for individual files that aren't dependent upon each other.
+
+To view the history of files, you can use "git log" to get a chronological list of commits, and then "git diff" commit_1 commit_2, where commit_1 and commit_2 are the ID's of two different commits, to see the differences between the two.
+
+Being able to use Git to revert to earlier, working versions of your project makes you more comfortable attempting potentially risky changes to it.
+
+What do I want to use Git for?  For developing ideas through projects, for sharing my projects with others, and for viewing or participating in others' projects.  
