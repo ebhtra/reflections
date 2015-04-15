@@ -1,0 +1,4 @@
+When you init a git repository, it creates a .git file in the directory you're in, so that you can commit the files in that directory if you want.  You need to do it as a first step in committing to a repository.
+
+The staging area acts as a filter for what goes from the working directory to the repository during a commit. Maybe this is helpful when you are dealing with a large working directory, a large number of commits, but only a small number of files.  It could thus narrow your scope/focus.  It could also help you avoid making accidental, unwanted changes to some files in the working directory.
+
