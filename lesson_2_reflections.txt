@@ -6,3 +6,4 @@ You can use the staging area to make sure you have one commit per logical change
 
 Branches help you keep your history organized by allowing you to continue developing in multiple directions simultaneously, without knowing which version (branch) you will eventually end up wanting to keep. 
 
+Diagrams are a huge help in visualizing the branch structure of a project.  Without them, you are at the mercy of a bunch of commit numbers and comments, without clearly understanding how they are related.  A diagram is like a map, and if you don't have one, you can still follow directions, but you can't make your own directions.
