@@ -3,3 +3,6 @@ When you init a git repository, it creates a .git file in the directory you're i
 The staging area acts as a filter for what goes from the working directory to the repository during a commit. Maybe this is helpful when you are dealing with a large working directory, a large number of commits, but only a small number of files.  It could thus narrow your scope/focus.  It could also help you avoid making accidental, unwanted changes to some files in the working directory.
 
 You can use the staging area to make sure you have one commit per logical change, by first executing "git diff --staged" and comparing the staging area with the repository, and then commiting only after confirming the results.
+
+Branches help you keep your history organized by allowing you to continue developing in multiple directions simultaneously, without knowing which version (branch) you will eventually end up wanting to keep. 
+
