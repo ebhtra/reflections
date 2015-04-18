@@ -1,2 +1,5 @@
 When would you want to use a remote repository rather than keeping all your work local?
 If your project involves other contributors, it might be easier to have everybody access it at a site like GitHub, rather than passing URLs back and forth among everybody and wondering who is up to date.  Or even with just one contributor, it could be nice to have a remote site to keep the most up-to-date working version of a project for the public to see, while simultaneously working on changes in a local repository.
+
+Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+You might want to finish developing an idea locally from a given point of the remote master, without integrating whatever changes have since been made to the remote.
