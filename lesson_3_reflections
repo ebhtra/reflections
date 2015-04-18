@@ -3,3 +3,7 @@ If your project involves other contributors, it might be easier to have everybod
 
 Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 You might want to finish developing an idea locally from a given point of the remote master, without integrating whatever changes have since been made to the remote.
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+Forks are repositories that stay within the remote location. Clones move to or stay in the local area.  Branches happen within one repository.  Forks can be used for taking a project in a new direction without changing the original project, or for developing the project in a parallel way, perhaps to be combined with the original project later.  Clones are used to work on a project in your local repository. Branches are used when the repository already exists locally and the user wants to explore in a different direction from the master thread, committing to the new branch without affecting the master until merging.
+
