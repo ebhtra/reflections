@@ -9,3 +9,6 @@ Forks are repositories that stay within the remote location. Clones move to or s
 
 What is the benefit of having a copy of the last known state of the remote stored locally?
 The benefit is that you can develop the remote locally while someone else makes changes to it, and when you want to combine your efforts, there is a common starting point from which to assess what the new version should be.
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+I would use emails with files attached.  I would have to keep notes on what I had changed, and potentially make a separate copy of the file with each update.  This would make complicated projects much harder.  On the other hand, simple projects on the scale of the recipe changes we made for this lesson would be easier.
