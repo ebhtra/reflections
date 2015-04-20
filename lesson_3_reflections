@@ -12,3 +12,6 @@ The benefit is that you can develop the remote locally while someone else makes 
 
 How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
 I would use emails with files attached.  I would have to keep notes on what I had changed, and potentially make a separate copy of the file with each update.  This would make complicated projects much harder.  On the other hand, simple projects on the scale of the recipe changes we made for this lesson would be easier.
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+First off, if you wanted to pursue two directions at once, and you wanted input from others on both branches, I think you'd need to make the changes in separate branches. Especially if you suspected the branches would eventually grow quite long, and you'd need to keep them separate for awhile.  But the benefit of keeping the changes in master are that the merges are streamlined and the histories stay neater. I guess you'd want to use master branch when your exploration is more linear.
